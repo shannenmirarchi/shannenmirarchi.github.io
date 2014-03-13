@@ -1,0 +1,43 @@
+nav a { 
+    padding-right:8px; }
+
+h1 {
+    color: #ff4a00; 
+}
+
+h2 {
+    color: #0021a5;
+}
+
+nav {
+vertical-align: middle;
+margin-top: 0px;
+margin-bottom: 12px;
+margin-right:0px;
+margin-left:5px;
+    font-family: "century gothic", sans-serif, "arial";
+    font-size: 26px; 
+    line-height: 2px; 
+}
+    
+a:link {color:#000000;}      
+a:visited {color:#000000;}  
+a:hover {color:#000000;}  
+a:active {color:#000000;}  
+
+
+}
+
+
+/* 
+header a active: 
+*/
+p { 
+    font-family: century gothic, helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.right {
+    float:right;} 
