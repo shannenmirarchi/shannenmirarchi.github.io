@@ -3,13 +3,17 @@
 	padding:0px;
 	}
 
+@media only screen {min-device-width: 480px}
+
+@media only screen {min-device-width: 768px}
+
 #wrapper { 
-	width:1200px;
-	margin-left:85px;
+	max-width:960px;
+	margin-left:auto;
 	margin-right:auto;
 	background-color:#FFFFFF;
 	padding:10px;
-	overflow:auto;
+
 	}
 
 article {
@@ -20,23 +24,29 @@ article {
 	background-color:#FFFFFF;
 	font-family:"Century Gothic", "Arial", sans-serif;
 	font-size:16px;
-	color:black;
+	color:#000000;
 	}
 
 nav {
-            
+     width: 80%;
+    float: left;
 margin-top: 5px;
 margin-bottom: 12px;
 margin-right:0px;
 margin-left:5px;
     font-family: "century gothic", sans-serif, "arial";
     font-size: 26px; 
-    line-height: 2px; 
+ 
 }
+
+header figure {
+    padding-top: 30px;
+}
+
 a:link {color:#000000;}      
 a:visited {color:#000000;}  
-a:hover {color:#000000;}  
-a:active {color:#000000;} 
+a:hover {color:#05E9FF;}  
+a:active {color:#05E9FF;} 
 
 a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
@@ -44,20 +54,20 @@ a:hover {text-decoration:none;}
 a:active {text-decoration:none;}
 
 
-.left {
-		margin-right:5px;
-		float:left;
+.center {
+		align-content:center;
 		}
 
-.right{
+.right {
 		margin-left:5px;
 		float:right;
 		}
 
-.right2{
+.right2 {
 		margin-top:50px;
 		float:right;
-		}
+    }
+		
 
 footer { 
     font-family:"century gothic", sans-serif, "arial";
